@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <meta name="author" content="Vaibhav Gupta">
+        <link rel="stylesheet" href="style.css">
+        <title>RGB Color Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>RGB Color Generator</h1>
+            <div class="color-box" id="color-box"></div>
+
+            <div class="sliders">
+                <div class="slider">
+                    <label for="red" class="red">Red :</label>
+                    <input type="range" id="red" min="0" max="255" value="0">
+                    <span id="red-value">0</span>
+                </div>
+
+                <div class="slider">
+                    <label for="green" class="green">Green :</label>
+                    <input type="range" id="green" min="0" max="255" value="0">
+                    <span id="green-value">0</span>
+                </div>
+
+                <div class="slider">
+                    <label for="blue" class="blue">Blue :</label>
+                    <input type="range" id="blue" min="0" max="255" value="0">
+                    <span id="blue-value">0</span>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button id="copyButton">Copy RGB Value</button>
+                <div id="inputType" class="input-type-value"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
