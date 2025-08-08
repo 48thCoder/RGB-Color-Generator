@@ -65,7 +65,7 @@ label {
 }
 
 input {
-    width: 194px;
+    width: 190px;
     margin-right: 6px;
 }
 
@@ -100,4 +100,5 @@ button {
     width: 176px;
     display: inline-block;
     text-align: center;
+
 }
